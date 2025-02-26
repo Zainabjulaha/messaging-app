@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    background-color: black; /* Background color */
+    color: pink; /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #222; /* Darker background for header */
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: pink; /* Header text color */
+}
+
+/* Form Styles */
+form {
+    background-color: #333; /* Form background */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 300px; /* Set a fixed width for forms */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid pink; /* Pink border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #444; /* Input background */
+    color: white; /* Input text color */
+}
+
+input[type="submit"] {
+    background-color: pink; /* Submit button color */
+    color: black; /* Submit button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff66b2; /* Lighter pink on hover */
+}
+
+/* Link Styles */
+a {
+    color: pink; /* Link color */
+}
+
+a:hover {
+    color: #ff66b2; /* Lighter pink on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222; /* Darker background for footer */
+    color: pink; /* Footer text color */
+}
